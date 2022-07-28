@@ -56,14 +56,15 @@
         </nav>
         <!-- navbar end -->
         <!-- slider start -->
-        <section class="mt-5">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <section class="mt-5" id="Home">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active border rounded pt-5">
+                    <!-- slide-1 -->
+                    <div class="carousel-item active  pt-5">
                         <div>
-                            <img src="images/cover/cover-1.png" class="d-block w-100 h-100" alt="...">
+                            <img src="images/cover/cover-1.png" class="d-block w-100 image" alt="First slide">
                         </div>
-                        <div class="carousel-caption text-white">
+                        <div class="carousel-caption text-white" id="my-carousel-text">
                             <h1>Get Started Digital
                                 <br>
                                 Learning
@@ -75,11 +76,31 @@
                             <div class="btn bg-info text-white fw-bold">Get Started</div>
                         </div>
                     </div>
-                    <div class="carousel-item active border rounded pt-5">
+                    <!-- slide-2 -->
+                    <div class="carousel-item active  pt-5">
                         <div>
-                            <img src="images/cover/cover-2.jpg" class="d-block w-100 h-100" alt="...">
+                            <img src="images/cover/cover-2.jpg" class="d-block w-100 image" alt="Second slide">
                         </div>
-                        <div class="carousel-caption  text-white">
+                        <div class="carousel-caption  text-white" id="my-carousel-text">
+                            <h1>Get Started Digital
+                                <br>
+                                Learning
+                            </h1>
+                            <p>It is a long established fact that a reader will be distracted by
+                                the readable
+                                <br>
+                                content of a page when looking at its layout.
+                            </p>
+                            <div class="btn bg-info text-white fw-bold">Get Started</div>
+
+                        </div>
+                    </div>
+                    <!-- slide-3 -->
+                    <div class="carousel-item active  pt-5">
+                        <div>
+                            <img src="images/cover/cover-3.jpg" class="d-block w-100 image" alt="Third slide">
+                        </div>
+                        <div class="carousel-caption text-white" id="my-carousel-text">
                             <h1>Get Started Digital
                                 <br>
                                 Learning
@@ -88,29 +109,12 @@
                                 <br>
                                 content of a page when looking at its layout.
                             </p>
-                            <div class="btn bg-primary text-white">Get Started</div>
+                            <div class="btn bg-info text-white fw-bold">Get Started</div>
 
                         </div>
                     </div>
-                    <div class="carousel-item active border rounded pt-5">
-                        <div>
-                            <img src="images/cover/cover-3.jpg" class=" d-block w-100 h-100" alt="...">
-                        </div>
-                        <div class="carousel-caption text-white">
-                            <h1>Get Started Digital
-                                <br>
-                                Learning
-                            </h1>
-                            <p>It is a long established fact that a reader will be distracted by the readable
-                                <br>
-                                content of a page when looking at its layout.
-                            </p>
-                            <div class="btn bg-primary text-white">Get Started</div>
-
-                        </div>
-                    </div>
-
                 </div>
+
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -121,6 +125,7 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
+
             </div>
         </section>
         <!-- slider end -->
@@ -133,20 +138,20 @@
                     <br>
                     Courses
                 </h2>
-                <p class="text-secondary">It is a long established fact that a reader will be distracted by the readable
+                <p class="text-secondary">Start learning today with our flaxible courses for your shedule.
                     <br>
-                    content of a page when looking at its layout.
+                    Take courses 5-6 weeks at a time with locked-in tution.
                 </p>
 
             </div>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4 mt-5">
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4 mt-5">
                 <!-- course-1 -->
                 <div class="col">
-                    <div class="card d-flex flex-row">
-                        <div class="w-25">
+                    <div class="card d-flex flex-lg-row flex-md-row flex-sm-row ">
+                        <div class="w-lg-25 w-sm-50">
                             <img src="images/course/course-1.png" class="card-img-top" alt="...">
                         </div>
-                        <div class="card-body w-75">
+                        <div class="card-body w-lg-75 w-sm-50">
                             <h5 class="card-title">Fundamental Of UI/UX Design</h5>
                             <p class="card-text text-secondary">The fundamental principles of design are:
                                 Emphasis,Balance and Alignment.
@@ -158,8 +163,8 @@
                 </div>
                 <!-- course-2 -->
                 <div class="col">
-                    <div class="card d-flex flex-row">
-                        <div class="w-25">
+                    <div class="card d-flex flex-lg-row flex-md-row flex-sm-row">
+                        <div class="w-lg-25 w-sm-50">
                             <img src="images/course/course-2.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body w-75">
@@ -174,8 +179,8 @@
                 </div>
                 <!-- course-3 -->
                 <div class="col">
-                    <div class="card d-flex flex-row">
-                        <div class="w-25">
+                    <div class="card d-flex flex-lg-row flex-md-row flex-sm-row">
+                        <div class="w-lg-25 w-sm-50">
                             <img src="images/course/course-3.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body w-75">
@@ -190,8 +195,8 @@
                 </div>
                 <!-- course-4 -->
                 <div class="col">
-                    <div class="card d-flex flex-row">
-                        <div class="w-25">
+                    <div class="card d-flex flex-lg-row flex-md-row flex-sm-row">
+                        <div class="w-lg-25 w-sm-50">
                             <img src="images/course/course-4.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body w-75">
@@ -206,8 +211,8 @@
                 </div>
                 <!-- course-5 -->
                 <div class="col">
-                    <div class="card d-flex flex-row">
-                        <div class="w-25">
+                    <div class="card d-flex flex-lg-row flex-md-row flex-sm-row">
+                        <div class="w-lg-25 w-sm-50">
                             <img src="images/course/course-5.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body w-75">
@@ -222,8 +227,8 @@
                 </div>
                 <!-- course-6 -->
                 <div class="col">
-                    <div class="card d-flex flex-row">
-                        <div class="w-25">
+                    <div class="card d-flex flex-lg-row flex-md-row flex-sm-row">
+                        <div class="w-lg-25 w-sm-50">
                             <img src="images/course/course-6.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body w-75">
@@ -240,14 +245,15 @@
 
         </section>
         <!-- courses end -->
-        <!-- courses option -->
+        <!-- courses option start-->
         <div class="text-center mt-5">
             <button class="btn btn-info text-white fw-bold p-3">See More Courses</button>
         </div>
-        <!-- Explore The learning Institute -->
+        <!-- courses option end-->
+        <!-- Explore The learning Institute start-->
         <section class="container mt-5" id="Deals">
-            <div class="card mb-3 flex flex-row align-items-center">
-                <div class="w-50">
+            <div class="card mb-3 flex flex-sm-column flex-md-row align-items-lg-center">
+                <div class="w-xl-50 h-sm-50">
                     <img src="images/working.png" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body w-50 ms-5">
@@ -281,8 +287,8 @@
                 </div>
             </div>
         </section>
-
-        <!-- about successful student -->
+        <!-- Explore The learning Institute end-->
+        <!-- about successful student start-->
         <section class="container mt-5" id="Success">
             <div>
                 <h1>Meet Our Successful
@@ -336,7 +342,8 @@
                 <button class="btn btn-info text-white fw-bold ">View All</button>
             </div>
         </section>
-        <!-- Frequently Asked Questions -->
+        <!-- about successful student end-->
+        <!-- Frequently Asked Questions start-->
         <section class="container mt-5" id="About">
             <div class="text-center">
                 <h1>Frequently Asked Questions</h1>
@@ -418,8 +425,9 @@
                 </div>
             </div>
         </section>
-        <!-- joining section -->
-        <section class="container mt-5" id="Register">
+        <!-- Frequently Asked Questions end -->
+        <!-- joining section start -->
+        <section class="container mt-5 " id="Register">
             <div class="card">
                 <div class="card-body bg-info d-flex flex-row justify-content-between p-5">
                     <div>
@@ -434,20 +442,19 @@
                             data-target="#exampleModalLong">
                             Register Now
                         </button>
-
                         <!-- Modal -->
-                        <div class="modal" id="exampleModalLong" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal" id="exampleModal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        ...
+                                        Want to Register?
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
@@ -458,12 +465,14 @@
                             </div>
                         </div>
                         <!-- modal end -->
+
                     </div>
                 </div>
             </div>
         </section>
-        <!-- trusted by companies -->
-        <section class="container mt-5">
+        <!-- joining end -->
+        <!-- trusted by companies start -->
+        <section class="container mt-5 d-none d-lg-block">
             <div class="text-center">
                 <h1 class="fw-semibold">Trusted by over 800+ companies</h1>
             </div>
@@ -475,9 +484,10 @@
             </div>
 
         </section>
+        <!-- trusted by companies end-->
     </main>
-    <!-- footer -->
-    <section class="container mt-5">
+    <!-- footer start-->
+    <section class="mt-5">
         <footer class="bg-dark text-center text-white">
             <!-- Grid container start -->
             <div class="pt-5">
@@ -506,6 +516,7 @@
             <!-- Grid container end -->
         </footer>
     </section>
+    <!-- footer end -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
